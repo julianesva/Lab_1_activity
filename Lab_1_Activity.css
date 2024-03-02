@@ -1,0 +1,110 @@
+.page1 {
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    width: 35%; 
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+.text-container_1{
+    color: black;
+}
+
+.highlight{
+    background-color: yellow;
+}
+.highlight_2{
+    background-color: yellow;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-container_2 {
+    background-image: url('web_devop_img/twitter_interface.jpg');
+    background-size: cover; /* This property will cover the entire container */
+    background-position: center; /* This property centers the background image */
+    border: 1px solid #87bc44;
+    margin: 20px 0 15px 0;
+    text-align: center;
+    color: black; 
+    padding: 160px; 
+}
+
+.time,
+.text-container_3{
+    text-decoration: underline;
+    color: blue;
+}
+
+.names{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+
+.text-container_4 img,
+.text-container_4 p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+}
+
+
+.footer {
+    color: #130e0e;
+    text-align: center;
+    padding-bottom: 80px;
+    position: absolute;
+    width: 35%;
+    bottom: 0; /* Position the footer at the bottom of the page */
+}
+
+.form-container{
+    /*position: absolute;*/
+    /*border: 1px solid #87bc44;
+    background-color:hwb(84 49% 5%);*/
+    margin: 150px;
+    padding: 20px;
+    
+    position: absolute; /* Set position to absolute for manual positioning */
+    top: -70px; /* Initial top position */
+    right: 350px; /* Initial left position */
+
+
+    border: 1px solid #87bc44;
+    background: #e0ff92;
+    line-height: 1.2;
+
+
+    .button{
+        text-align: center;
+        #myButton{
+            font-family: Arial, sans-serif; /* Change the font family */
+            font-size: 25px; /* Change the font size */
+            font-weight: bold; /* Change the font weight */
+            
+        }
+    }
+    
+    .msg{
+        text-align: center;
+        font-family: Arial, sans-serif; /* Change the font family */
+        font-size: 18px; /* Change the font size */
+        padding: 10px 5px 10px 30px;
+        background: url(https://web.archive.org/web/20070703154320im_/http://static.twitter.com/images/girl.gif) no-repeat 0% 50%;
+    }
+
+    .insidediv{
+        text-align: center;
+        border: 1px solid #87bc44;
+        background-color: white;
+    }
+}
+
